@@ -104,3 +104,44 @@ body{
     width: 320px ;
     border-radius: 50px;
 }
+
+/* pro user section    */   
+
+.pro-user-section{
+   
+}
+.pro-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.6%;
+}
+.pro-user-button{
+    background-color: #4d47ff42;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin: 50px;
+    width: 700px;
+    height: 250px;
+    border-radius: 25px;   
+
+}
+.number-div{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    justify-content: space-between;
+
+}
+
+.number{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.sub-number{
+    color: #252432;
+    opacity: 50%;
+}
