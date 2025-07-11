@@ -77,7 +77,7 @@ nav {
 /* action section  */
 
 body{
-    background-color: #ffffff81;
+    background-color: hwb(213 78% 0% / 0.506);
 }
 .action-section{
    
@@ -107,9 +107,6 @@ body{
 
 /* pro user section    */   
 
-.pro-user-section{
-   
-}
 .pro-text{
     font-size: 20px;
     font-weight: bold;
@@ -121,10 +118,13 @@ body{
     color: black;
     font-weight: bold;
     border: none;
-    margin: 50px;
-    width: 700px;
+    margin: 70px;
+    width: 800px;
     height: 250px;
     border-radius: 25px;   
+    /* text-align: center; */
+    /* align-items: center; */
+    /* align-self: center; */
 
 }
 .number-div{
@@ -144,4 +144,74 @@ body{
 .sub-number{
     color: #252432;
     opacity: 50%;
+}
+
+
+
+/* Feedback section  */
+
+
+.feed-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 6%;
+}
+.feed-button{
+    padding: 20px;
+    justify-content: space-between ;
+    
+    border-radius: 10px;
+    border: none ;
+    /* border-width: 2.7px; */
+    /* border-color: white; */
+    margin: 10px;
+    width: 260px ;
+    
+    /* align-items: center */
+}
+.feedback{
+    width: 850px;
+    height: 342px;
+    margin: 50px;
+    /* background-color: #4E47FF; */
+
+    /* justify-content: ; */
+}
+
+.star{
+    display: flex;
+    width: 115px;
+    height: 20px;
+}
+
+.love{
+    font-size: 20px ;
+    font-weight: bold;
+    text-align: left;
+}
+.sub-love{
+    text-align: left;
+    font-weight: 0.8%;
+}
+
+.reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.name,.date{
+    margin: 0;
+}
+.name{
+text-align: left;
+color: rgba(0, 0, 0, 0.658);
+}
+.date{
+    text-align: left;
+    color: #2524323f;
+}
+
+.khomar-pic{
+    border-radius: 50px;
 }
