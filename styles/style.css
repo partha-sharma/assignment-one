@@ -30,6 +30,7 @@ header {
     justify-content: center;
     min-height: 45vh;
     background-size: cover;
+    background-color: #4E47FF;
 
 }
 
@@ -73,3 +74,33 @@ nav {
 
 }
 
+/* action section  */
+
+body{
+    background-color: #ffffff81;
+}
+.action-section{
+   
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.action-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.6%;
+}
+.action-sub-text{
+    color: #252432;
+    opacity: 50%;
+    text-align: left;
+    
+}
+.action-image{
+    width: 320px ;
+    border-radius: 50px;
+}
