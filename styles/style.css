@@ -63,6 +63,7 @@ nav {
     text-align: center;
 
 }
+
 .banner{
     text-align : center;
     
@@ -214,4 +215,56 @@ color: rgba(0, 0, 0, 0.658);
 
 .khomar-pic{
     border-radius: 50px;
+}
+
+
+/* touch section
+ */
+
+
+ .touch{
+    display: flex;
+    background-color: aqua;
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+
+ }
+ .touch-div{
+    padding-right:100px ;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    font-size: 55px;
+    text-align: left;
+    /* margin: 0.6%; */
+    font-weight: bolder;
+    /* background-color: #4E47FF; */
+ }
+
+ .form{
+    padding-top: 20px;
+    padding-left: 50px;
+    align-items: center;
+    /* background-color: azure; */
+    width: 300px;
+ }
+
+.form-text{
+    margin-bottom: 5px;
+}
+
+section input[type="text"]{
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+    margin-bottom: 0.2%px;
+}
+section textarea{
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 30px;
+
+    
 }
